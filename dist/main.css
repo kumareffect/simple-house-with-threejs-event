@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.button-list {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    right: 20px;
+}
+
+canvas {
+    position: fixed;
+}
+
+.door, .left, .window, .front, .close {
+    padding: 5px 8px;
+    color: #000;
+    position: relative;
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: bold;
+
+}
+
+.door {
+    top: -100px;
+    left: 15px;
+}
+
+.close {
+    top: -100px;
+    right: 15px;
+
+}
+
+.window {
+    top: -50px;
+}
+
+.left {
+    left: -15px;
+}
+
+.front {
+    right: -15px;
+}
+
+.pre {
+    position: relative;
+    font-size: 15px;
+    left: -80px;
+    color: white;
+}
+
+/*# sourceMappingURL=main.css.map*/
